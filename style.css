@@ -215,7 +215,7 @@ a {
 }
 
 
-article{
+article {
     display: flow-root;
     margin-top: 0;
     margin-bottom: 50px;
@@ -231,9 +231,20 @@ article img {
     box-sizing: border-box;
     padding: 0 2rem;
     margin-bottom: 56px;
+}
 
 
-    .responsive {
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+
+    .left,
+    .main,
+    .right {
         width: 100%;
-        height: auto;
+        /* The width is 100%, when the viewport is 800px or smaller */
     }
+}
