@@ -51,6 +51,7 @@ h2 {
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 3vh;
 
 }
 
@@ -64,7 +65,9 @@ h2 {
 
 nav {
     display: inline;
-    margin-right: 60px;
+    margin-right: 9px;
+    
+;
 
 }
 
@@ -81,11 +84,13 @@ button {
     background-color: #EDF2EB;
     text-decoration: solid;
     font-size: 2vh;
-    border-radius: 8vh;
-    padding: 2vh 3vh;
+    border-radius: 15vh;
+    padding: 1vh 1vh;
     margin-top: 15vh;
     color: #1B5359;
     font-family: Batang;
+    
+    
 
 
 
@@ -100,10 +105,13 @@ button-bio {
 button-cv {
     text-align: center;
     font-size: 30px;
+    
 }
 
 button-contact {
     font-size: 30px;
+    
+
 }
 
 
@@ -145,7 +153,7 @@ a {
 
 }
 
-.paragrafo, .eu {
+.paragrafo {
     display: block;
     text-align: justify;
     margin-left: 20%;
@@ -161,8 +169,8 @@ a {
 
 .bio {
     margin-left: 0;
-    margin-right: 0;
-    margin-top: 205px;
+    margin-right: 40vh;
+    margin-top: 150px;
     margin-bottom: 10px;
     padding-bottom: 4px;
     display: flow-root;
@@ -186,8 +194,8 @@ a {
     margin-left: 0;
     padding-top: 0;
     padding-bottom: 0;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 8px;
+    padding-left: 8px;
     font-size: 3vh;
     font-family: Batang;
 }
@@ -213,17 +221,16 @@ a {
 }
 
 
-text-bio {
+.texto-bio {
     display: inline-block;
     margin-top: 0;
     margin-bottom: 50px;
-    margin-right: 30px;
-    padding: 5px;
+    margin-right: 7vh;
 
 
 }
 
-texto-bio {
+/*texto-bio {
     shape-outside: url(imagens/eu.png);
     shape-margin: 0.9rem;
     float: right;
@@ -231,29 +238,24 @@ texto-bio {
     margin-bottom: 56px;
     width: 100px;
     height: 100px;
-}
+}*/
 
 img{
-    max-width: 23%;
+    max-width: 100%;
     height: auto;
-
+    border-radius: 32vh;
+    float: right;
+    margin-left:0 ;
+    margin-bottom: 3vh;
+    padding: 7px;
 }
 
-
-
-
-
-@media screen and (max-width: 800px) {
-
-        .left,
-        .main,
-        .right {
-            width: 100%;
-            /* The width is 100%, when the viewport is 800px or smaller */
-        }
-    }
 
 .container {
     padding-top: 9vh;
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
 }
