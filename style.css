@@ -4,11 +4,11 @@ body {
     height: 64vh;
     display: block;
     text-align: center;
-    background-position: center;
+    /*background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(imagens/5437842.jpg);
+    background-image: url(imagens/5437842.jpg);*/
     margin-top: 15px;
     opacity: 5;
 }
@@ -32,10 +32,11 @@ h1 {
     margin-bottom: 10px;
     margin-right: 600px;
     font-size: 4vh;
-    color: #1B5359;
+    color: black;
     font-family: Batang;
     margin-left: 0;
     padding-bottom: 6%;
+    font-weight: 300;
 
 
 }
@@ -56,9 +57,9 @@ h2 {
 }
 
 .typewrite {
-    color: #F26B6B;
+    color: #EB1212;
     font-family: Batang;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
@@ -81,14 +82,15 @@ nav-button {
 
 button {
     margin-left: 2vh;
-    background-color: #EDF2EB;
-    text-decoration: solid;
+    background-color: white;
     font-size: 2vh;
-    border-radius: 15vh;
+    border-radius: 2vh;
     padding: 1vh 1vh;
     margin-top: 15vh;
     color: #1B5359;
     font-family: Batang;
+    border-color: red;
+    border-style:hidden;
     
     
 
@@ -123,12 +125,12 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    color: #F26B6B;
-    font-weight: 800;
+    color: black;
+    font-weight: 600px;
 }
 
 a {
-    color: #1B5359;
+    color: black;
 }
 
 .cv {
@@ -148,9 +150,7 @@ a {
     margin-bottom: 10px;
     /*margin-right: 600px;
     margin-left: 0;*/
-
-
-
+    color: #F26B6B;
 }
 
 .paragrafo {
@@ -169,11 +169,12 @@ a {
 
 .bio {
     margin-left: 0;
-    margin-right: 40vh;
+    margin-right: 80vh;
     margin-top: 150px;
     margin-bottom: 10px;
     padding-bottom: 4px;
     display: flow-root;
+    color:#1B5359
 
 }
 
@@ -198,6 +199,7 @@ a {
     padding-left: 8px;
     font-size: 3vh;
     font-family: Batang;
+    color:black;
 }
 
 .contato {
@@ -208,7 +210,7 @@ a {
     margin-top: 18%;
     font-family: Batang;
     font-size: 2vh;
-    color: #1B5359;
+    color: black;
     font-weight: 500;
 
 }
